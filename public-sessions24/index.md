@@ -1,5 +1,5 @@
-
-    <h1 align="center">Welcome to Azure Innovators Hub - Public Sessions 2024</h1>
+<h1 align="center">Welcome to Azure Innovators Hub - Public Sessions 2024</h1>
+    
 
    ![sessions24](https://github.com/user-attachments/assets/283b4345-55f5-4dc2-82fb-4b66fd1b15b8)
 
