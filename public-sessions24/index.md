@@ -6,10 +6,8 @@
 
     <p>Global Azure Greece is a community event organized by the Azure Innovators Hub User Group Greece. All around the world user groups and communities are sharing knowledge to professionals that want to learn more about Microsoft Azure and Cloud Computing! On Apr 20, 2024, we will come together to once again bring the Global Azure event! The Azure User Group Greece brings a one day world-class event on Microsoft Azure. Join us online and don't forget to use the social hashtags #GlobalAzureGR and #GlobalAzure!</p>
 
-    <h2>The <a href="https://sessionize.com/global-azure-greece-2024/">Call for Speakers is open</a></h2>
-    <p>Selection will happen on an ongoing basis. Don't wait to the last day to submit your sessions!!!</p>
 
-    <p>Resume information:</p>
+    <p>Event Dates:</p>
     <ul>
         <li>📅October, 4 2024</li>
         <li>📅October, 5 2024</li>
