@@ -17,7 +17,7 @@
 
     <p>If you have any questions, feedback or thoughts, please reach out to the community organizers at:</p>
     <ul>
-        <li><a href="https://www.meetup.com/athens-azure-tech-group/">https://www.meetup.com/athens-azure-tech-group/</a></li>
+        <li><a href="https://www.meetup.com/athens-azure-tech-group/">Azure Innovators Hub</a></li>
     </ul>
 </body>
 </html>
