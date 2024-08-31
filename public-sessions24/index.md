@@ -11,8 +11,8 @@
 
     <p>Resume information:</p>
     <ul>
+        <li>📅October, 4 2024</li>
         <li>📅October, 5 2024</li>
-        <li>📅October, 6 2024</li>
         <li>📅November, 8 2024</li>
         <li>📅November, 9 2024</li>
     </ul>
