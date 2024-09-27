@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to Azure Innovators Hub - Public Sessions 2024</h1>
     
 
-   ![sessions24](https://github.com/user-attachments/assets/283b4345-55f5-4dc2-82fb-4b66fd1b15b8)
+![sessions24all](https://github.com/user-attachments/assets/e410abf1-4dc5-4d49-9403-be29cc8c0042)
 
 
     <p>Global Azure Greece is a community event organized by the Azure Innovators Hub User Group Greece. All around the world user groups and communities are sharing knowledge to professionals that want to learn more about Microsoft Azure and Cloud Computing! On Apr 20, 2024, we will come together to once again bring the Global Azure event! The Azure User Group Greece brings a one day world-class event on Microsoft Azure. Join us online and don't forget to use the social hashtags #GlobalAzureGR and #GlobalAzure!</p>
