@@ -13,4 +13,4 @@ Resume information:
 
 
 If you have any questions, feedback or thoughts, please reach out to the community organizers at:
-* https://www.meetup.com/athens-user-group/
+* https://www.meetup.com/athens-tech-group/
