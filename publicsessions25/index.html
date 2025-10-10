@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Innovators Hub – Public Sessions 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for an Azure-inspired color scheme and font */
+        :root {
+            --azure-blue-dark: #2d1691; /* Microsoft Blue */
+            --azure-blue-light: #9b5ced; /* Deep Sky Blue */
+            --gradient-start: #0078D4;
+            --gradient-end: #00BFFF;
+        }
+
+        /* Basic setup for font and smooth scrolling */
+        body {
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+            background-color: #f0f8ff; /* Light Azure Background */
+            color: #1f2937; /* Dark Gray Text */
+            scroll-behavior: smooth;
+        }
+
+        /* Hero section specific styling for the gradient background */
+        .hero-gradient {
+            background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+        }
+
+        /* Subtle Animation for section titles (Bonus) */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Style the Sessionize script container to ensure it takes full width */
+        .sessionize-container {
+            min-height: 100vh; /* Ensure it's tall enough to avoid jumping on load */
+        }
+
+        /* Specific styles to make the Sessionize widget blend in better */
+        #sessionize-grid-smart {
+            margin-top: 2rem;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'azure-primary': '#0078D4',
+                        'azure-light': '#F0F8FF',
+                        'azure-dark': '#005A9E',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="antialiased">
+
+    <header class="hero-gradient text-white shadow-xl">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8 text-center">
+            <!-- Logo: replace the src with your actual logo path (e.g., assets/logo.png) -->
+            <img 
+                src="azinn01.png" 
+                alt="Azure Innovators Hub logo" 
+                class="mx-auto mb-6 block h-32 w-auto max-h-16 sm:max-h-20 md:max-h-24 drop-shadow-lg"
+                decoding="async" 
+                loading="eager"
+            />
+            <p class="text-xl sm:text-2xl font-light mb-2 opacity-90 fade-in">LIVE EVENT SERIES</p>
+            <h1 class="text-5xl sm:text-7xl font-extrabold tracking-tight mb-4 animate-pulse">
+                Azure Innovators Hub
+            </h1>
+            <h2 class="text-2xl sm:text-3xl font-semibold opacity-90">
+                Public Sessions 2025
+            </h2>
+            <a href="#sessions-section" class="mt-8 inline-block bg-white text-azure-primary hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                View Schedule
+            </a>
+        </div>
+    </header>
+
+    <section id="overview" class="py-16 sm:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-6 border-b-2 pb-2 border-azure-primary/50 fade-in">
+                🧠 Event Overview
+            </h2>
+            <div class="space-y-6 text-lg text-gray-700">
+                <p class="fade-in delay-100">
+                    Join us at the <strong>Azure Innovators Hub</strong>, a vibrant online gathering for professionals and enthusiasts passionate about <strong>Azure, Microsoft 365, and Developer Technologies</strong>. This event brings together a diverse community to explore cutting-edge solutions, share real-world experiences, and spark meaningful conversations around cloud innovation and modern development practices.
+                </p>
+                <p class="fade-in delay-300">
+                    Whether you're tuning in for hands-on workshops, insightful presentations, or fresh perspectives from industry voices, Azure Innovators Hub offers a welcoming space to learn, connect, and grow. Expect engaging sessions, practical takeaways, and a collaborative atmosphere designed to inspire and empower.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="border-t-4 border-azure-primary/20">
+
+    <section id="sessions-section" class="py-16 sm:py-24 bg-azure-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-8 text-center fade-in">
+                📅 Session Schedule & Details
+            </h2>
+            
+            <div class="sessionize-container bg-white p-4 sm:p-6 rounded-lg shadow-2xl transition duration-500 hover:shadow-3xl">
+                <script type="text/javascript" src="https://sessionize.com/api/v2/s20cug3z/view/GridSmart"></script>
+            </div>
+            
+            <p class="text-center text-sm text-gray-500 mt-6">
+                *Schedule subject to change. Please check back for the latest updates.
+            </p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-xl font-semibold mb-3">Azure Innovators Hub</p>
+            <nav class="space-x-4 text-sm">
+                <a href="https://www.meetup.com/athens-azure-tech-group" class="hover:text-azure-blue-light transition duration-300">Meetup</a>
+                <span class="text-gray-500">|</span>
+                <a href="https://www.linkedin.com/groups/9599037/" class="hover:text-azure-blue-light transition duration-300">LinkedIn</a>
+                <span class="text-gray-500">|</span>
+                <a href="https://www.meetup.com/athens-azure-tech-group" class="hover:text-azure-blue-light transition duration-300">Contact Us</a>
+                <span class="text-gray-500">|</span>
+                <a href="https://passadis.github.io/azure-innovators/docs/index.html" class="hover:text-azure-blue-light transition duration-300">Privacy Policy</a>
+            </nav>
+            <p class="mt-4 text-xs text-gray-500">
+                &copy; 2025 Azure Innovators Hub. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const elements = document.querySelectorAll('.fade-in');
+            
+            // Function to check if element is in viewport
+            const isVisible = (el) => {
+                const rect = el.getBoundingClientRect();
+                return (
+                    rect.top >= 0 &&
+                    rect.left >= 0 &&
+                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                );
+            };
+
+            const handleScroll = () => {
+                elements.forEach(el => {
+                    if (isVisible(el) || el.getBoundingClientRect().top < (window.innerHeight - 50)) {
+                        el.classList.add('visible');
+                    }
+                });
+            };
+
+            // Trigger on load and scroll
+            handleScroll();
+            window.addEventListener('scroll', handleScroll);
+        });
+    </script>
+</body>
+</html>
