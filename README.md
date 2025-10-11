@@ -1,6 +1,9 @@
 <div align="center">
 <img width="800" height="600" alt="azinn01" src="https://github.com/user-attachments/assets/3cb21e03-0726-40fc-8e1c-64592b4d39dd" />
-</div>
+
+
+ [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://passadis.github.io/azure-innovators/)
+ </div>
 
 # ☁️ Azure Innovators Hub
 
