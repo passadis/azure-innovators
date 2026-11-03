@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azure Innovators Hub – Public Sessions 2025</title>
+    <title>Azure Innovators Hub – Public Sessions 2026</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Custom styles for an Azure-inspired color scheme and font */
@@ -79,7 +79,7 @@
                 Azure Innovators Hub
             </h1>
             <h2 class="text-2xl sm:text-3xl font-semibold opacity-90">
-                Public Sessions 2025
+                Public Sessions 2026
             </h2>
             <a href="#sessions-section" class="mt-8 inline-block bg-white text-azure-primary hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
                 View Schedule
@@ -112,7 +112,26 @@
             </h2>
             
             <div class="sessionize-container bg-white p-4 sm:p-6 rounded-lg shadow-2xl transition duration-500 hover:shadow-3xl">
-                <script type="text/javascript" src="https://sessionize.com/api/v2/s20cug3z/view/GridSmart"></script>
+                <script>
+                    window.addEventListener("sessionize.onload", () => {
+                        // Sessionize day IDs for 3 and 5 November 2026.
+                        const allowedDays = new Set(["sz-tab-46329", "sz-tab-46331"]);
+                        const schedule = document.querySelector(".sessionize-container");
+
+                        schedule.querySelectorAll(".sz-tabs__link").forEach(link => {
+                            const dayId = link.hash.substring(1);
+                            if (!allowedDays.has(dayId)) {
+                                schedule.querySelector(`#${dayId}`).remove();
+                                link.closest(".sz-tabs__item").remove();
+                            }
+                        });
+
+                        if (!schedule.querySelector(".sz-tabs__item--active")) {
+                            schedule.querySelector(".sz-tabs__link").click();
+                        }
+                    });
+                </script>
+                <script type="text/javascript" src="https://sessionize.com/api/v2/yvnebahp/view/GridSmart"></script>
             </div>
             
             <p class="text-center text-sm text-gray-500 mt-6">
@@ -134,7 +153,7 @@
                 <a href="https://passadis.github.io/azure-innovators/docs/index.html" class="hover:text-azure-blue-light transition duration-300">Privacy Policy</a>
             </nav>
             <p class="mt-4 text-xs text-gray-500">
-                &copy; 2025 Azure Innovators Hub. All Rights Reserved.
+                &copy; 2026 Azure Innovators Hub. All Rights Reserved.
             </p>
         </div>
     </footer>
