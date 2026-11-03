@@ -112,6 +112,25 @@
             </h2>
             
             <div class="sessionize-container bg-white p-4 sm:p-6 rounded-lg shadow-2xl transition duration-500 hover:shadow-3xl">
+                <script>
+                    window.addEventListener("sessionize.onload", () => {
+                        // Sessionize day IDs for 3 and 5 November 2026.
+                        const allowedDays = new Set(["sz-tab-46329", "sz-tab-46331"]);
+                        const schedule = document.querySelector(".sessionize-container");
+
+                        schedule.querySelectorAll(".sz-tabs__link").forEach(link => {
+                            const dayId = link.hash.substring(1);
+                            if (!allowedDays.has(dayId)) {
+                                schedule.querySelector(`#${dayId}`).remove();
+                                link.closest(".sz-tabs__item").remove();
+                            }
+                        });
+
+                        if (!schedule.querySelector(".sz-tabs__item--active")) {
+                            schedule.querySelector(".sz-tabs__link").click();
+                        }
+                    });
+                </script>
                 <script type="text/javascript" src="https://sessionize.com/api/v2/yvnebahp/view/GridSmart"></script>
             </div>
             

@@ -13,7 +13,7 @@ Whether you're a seasoned Azure developer, a system architect, or just starting 
 
 ## Public Sessions 2026
 
-View the [2026 session schedule](https://passadis.github.io/azure-innovators/publicsessions26/), powered by the Sessionize `pub26` event feed.
+View the [2026 session schedule](https://passadis.github.io/azure-innovators/publicsessions26/) for 3 and 5 November 2026, powered by the Sessionize `pub26` event feed.
 
 ---
 
