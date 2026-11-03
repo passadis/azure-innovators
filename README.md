@@ -11,6 +11,10 @@ Welcome to the **Azure Innovators Hub** – the premier meetup group for all Azu
 
 Whether you're a seasoned Azure developer, a system architect, or just starting out in the vast world of Azure – this is the place for you. Our community thrives on sharing insights, best practices, and the latest Azure updates, ensuring every member stays at the forefront of cloud technology advancements.
 
+## Public Sessions 2026
+
+View the [2026 session schedule](https://passadis.github.io/azure-innovators/publicsessions26/), powered by the Sessionize `pub26` event feed.
+
 ---
 
 ## 🌍 What We’re About
